@@ -9,17 +9,7 @@ import java.util.ResourceBundle;
  */
 public enum FxmlView {
 
-    USER {
-        @Override
-        public String getTitle() {
-            return getStringFromResourceBundle("user.title");
-        }
-
-        @Override
-        public String getFxmlFile() {
-            return "/fxml/User.fxml";
-        }
-    },LOGIN {
+    LOGIN {
         @Override
         public String getTitle() {
             return getStringFromResourceBundle("login.title");
